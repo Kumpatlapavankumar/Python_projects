@@ -9,7 +9,7 @@ def speedcheck():
     lab_up.config(text=up) 
 sp=Tk() 
 sp.title("Internet Speed") 
-sp.geometry("10000x10000") 
+sp.geometry("500x550") 
 sp.config(bg="Red") 
 lab=Label(sp,text="Internet Speed Test",font=("Time New Roman",30,"bold"))
 lab.place(x=60,y=40,height=50,width=380)
