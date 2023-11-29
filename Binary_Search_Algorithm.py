@@ -1,6 +1,4 @@
 import random
-
-# Function to generate a list of random numbers with a difference of 2 between them
 def generate_number_list(length):
     number_list = [random.randint(0, 100) for _ in range(length)]
     number_list.sort()
@@ -8,7 +6,6 @@ def generate_number_list(length):
         number_list[i] = number_list[i - 1] + 2
     return number_list
 
-# Function to perform binary search on the list
 def perform_binary_search(lst, target):
     start = 0
     end = len(lst) - 1
